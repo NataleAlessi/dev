@@ -1,0 +1,40 @@
+.main-content .section-color.services {
+    padding: 100px;
+    background-color: #313533;
+    color: #16515C;
+  }
+  
+  .main-content .section-color.services .title,
+  .main-content .section-color.services .subtitle {
+    color: #16515C;
+  }
+  
+  .main-content .section-color.services i {
+    font-size: 3rem;
+    padding: 20px;
+  }
+  
+  .main-content .section-title, .main-content .subtitle {
+    color: orange;
+  }
+
+  .main-content .section-title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+  }
+  
+  .service-description:hover {
+    color: azure;
+  }
+  
+.fa-meteor,
+.fa-paint-brush,
+.fa-rocket,
+.fa-upload,
+.fa-bus,
+.fa-code,
+.service-label {
+    color: azure;
+  }

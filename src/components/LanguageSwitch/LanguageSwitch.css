@@ -1,0 +1,15 @@
+.LanguageSwitch {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.SwitchButton {
+    color: azure;
+    background-color: #16515C;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}

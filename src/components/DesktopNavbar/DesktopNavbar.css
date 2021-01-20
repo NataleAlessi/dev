@@ -1,0 +1,53 @@
+.navbar-menu {
+  background-color:  #16515C;
+}
+
+ .light-logo-shield {
+    display: flex;
+    position: relative;
+    top: -4vmin;
+    justify-content: center;
+    height: 16vmin;
+ }
+
+ .light-logo-shield img {
+   height: inherit;
+   border-radius: 0 0 30% 30%;
+   background-color: azure;
+ }
+
+/* The sticky class is added 
+ to the navbar with JS when it
+ reaches its scroll position */
+.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.sticky-space {
+  padding-top: 10vmin;
+}
+
+
+
+
+
+/* 
+ .dodeca, .dodeca div {
+    margin: auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    height: 12vmax;
+    width: 12vmax;
+  }
+.dodeca {
+  transform: rotate(120deg);
+}
+.dode1 {
+  transform: rotate(-60deg);
+}
+.dode2 {
+  transform: rotate(-60deg);
+} */

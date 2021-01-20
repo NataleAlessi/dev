@@ -1,0 +1,96 @@
+{
+    "aboutSection": {
+        "title": "About me",
+        "subtitle": "***DiagonalMindset*** ***EngineeringBackground*** ***DeveloperToolbelt***",
+        "mainText": "I'm an Industrial Engineer with 2+ years experience in R&Ding and coding for web applications, front-end systems, blockchain, server-side scripting and complex task automation. I've worked both for small startups and big enterprises, meaning I can pitch a new idea  in front of a public audience and leverage my diagonal thinking just as much as I can fit in a complex,  structured work pipeline.  An unstoppable self-teacher, I never stop trying to acquire new skills and tools. ",
+        "personalClaim": "\"Pick a big challenge. Understand and abstract the problem. Pick your tools.  Learn how to use them, learn fast, learn relentlessly.  Approach the problem with a strategy and the best tools around.  Face the challenge. Solve the problem. Now pick a bigger challenge and repeat.\"",
+        "phoneMe": "Give me a ring!",
+        "phone": "(+39) 389 0820957",
+        "mailMe": "Email me!",
+        "mail": "natale.alessi.90@gmail.com"
+    },
+    "heroSection": {
+        "title": "Natale Alessi",
+        "subtitle": "Hey there, I'm",
+        "profession": "engineer - developer - doer",
+        "welcome": "(Welcome to my personal page!)"
+    },
+    "aboutThisPageSection": {
+        "sec_1": {
+            "title": "Hello World, let me tell you why we're here",
+            "p_1": "Let's put it this way: I was really full of it of trying to explain my developer skills via an old-style resume. I'm an industrial engineer, I've been working as a developer or inside development teams or just developing on my own for the last 3 years now, and it was right about time to give myself a proper personal page.",
+            "p_2": "I know, not the most revolutionary idea ever, but a necessary step given time in every possible career path I might desire in my life currently.",
+            "p_3": "So I just did it. I poured into it at least some 25 hour of work, 2 frameworks, 2 different templates, an indefinite quantity of notions and little ideas stashed somewhere in my brain and never given enough time to flourish into fully fledged utilities, and then some more.",
+            "p_4": "I wanted to showcase the results of my latest sessions of self-learning, I've been spending lots of time onto React's ecosystem and I love it. I chose React as my framework of preference some six months ago, and I've been experimenting with it ever since. I wanted to try another lightweight framework for styling the page, so I picked the wonderful and easy on the eye Bulma, which proved itself so useful to my needs that I decided to go all in and looking for a proper template."
+        },
+        "sec_2": {
+            "title": "Starting from scratches: getting some of those scratches",
+            "p_1": {
+                "a": "So first step, I had nothing but my skills and very, very little free time to work on my projects outside of my 9 to 5. I searched the internet for a Bulma portfolio template available within the open source community, and I found this lovely GitHub page ",
+                "here": {
+                    "text": "here",
+                    "link": "https://bulmatemplates.github.io/bulma-templates/"
+                },
+                "b": ". It is a beautiful page, full of templates and resources to speed up your Bulma development if you're in need of something simple and straightforward (they have also a pair of very sleeky templates though). I found this \"Ashley's Portfolio\" template that looked like a good match for me, I got it for free from github and immediately started working."
+            },
+            "p_2": "As usual with a template of this sort, what you get is a big structured HTML page with lots of classes and utilities, specifically put together to leverage at its max capabilities the chosen CSS framework, plus some more advanced HTML5 tags and specs per se.",
+            "p_3": "What I wanted was to transform that static, single page site into a fully fledged React SPA. So, first things first, I started with some basics fix, like turning HTML tags and props into proper JSX, then splitting this huge JSX chunk into meaningful components and orchestrate them into the site structure I was planning. A non trivial part of this has surely been represented by the splitting of the relative CSS and JS files that came with the template, since DOM manipulation is considered anti-pattern in React and since CSS specificity isn't really that necessary when you have component dedicated .css files.",
+            "p_4": "A warning here, if you get right now on my Github and take a look at the code, you'll see some antipattern stuff every here and there, a poorly consistent and redundant naming convention, and something else for sure. I'm aware of that, but this time I went for \"Better done than perfect\", so remember that all of this will be improved and fixed shortly.",
+            "p_5": "I tried to refactor wherever I saw fit while working other details, but please remember: my goal here was a balance between time poured into the project and quality of result, and the overall aim to show someone that I can do what a developer team more than often does, build things and solve problems, quickly and effectively. And, of course, that I can do this with some cool tools like React."
+        },
+        "sec_3": {
+            "title": "Let's move on",
+            "p_1": "I started setting up my project by inserting the Bulma template into React's index.html, that serves as a template itself inside of React's mechanic. Then I split it into several components to have a first look at the structure of what I had, and finally I set up basic routing with npm's library 'react-router-dom'. For the multilanguage feature, I re-used a component I had programmed for an earlier, never finished portfolio from some months ago.",
+            "p_2": "After that, with browsing, multilanguage and a proper index.html for my project, I was ready to try and get a feel of what I was cooking actually. So my next step was to deconstruct also the color palette of Ashley's template (I plan on making a SCSS cersion of the new palette, so that I can experiment more easily with different color combinations), and turn into something of my own.",
+            "p_3": {
+                "a": "\"Here we need something cool, man\" - I thought. And I also wanted to stay totally open-source as long as possible. So I looked for a nice, license free, impactful image on Pixabay, found this weird astronaut coming on towards me and kinda fell in love. Once I was sure that my moon-walking friend here was a good center point for the style of my page, I used ",
+                "this": {
+                    "text": "this",
+                    "link": "https://palettegenerator.com/"
+                },
+                "b": " online tool to turn the image into a color palette, actually calculating the predominant colors on the image."
+            },
+            "p_4": "The result seemed pretty consistent in terms of colors and accents, even if I'm no designer, it gave me a nice, elegant, quiet but smooth and smart appeal. So that was it. I had a templated codebase, a visually pleasant palette and React behind it powering the engines."
+        },
+        "sec_4": {
+            "title": "So now what?",
+            "p_1": "This page is meant for something other than just translate my CV into a website. So it was only at this point that I started writing the actual content of the pages: the Hero banner you see landing on the page, the spaceship logo in the navigation bar, the AboutMe section and most of all THIS page you're reading. I'm here to give clues, to anyone is looking for the right person for the job. I'm here to make a statement. So here you are, you read so far, you're ready for the big statement:",
+            "p_2": "\"This is a glimpse of me. I develop, and I wasn't always a developer, and even more I research, because that's who I have always been, a researcher, an explorer, a pathfinder. If you need someone with some-two-hundreds-years-of-proven-experience-in-everything-you-ever-heard-of, well, that's not me. But if you need someone to do this job and go a long way doing so, here I am. Let's do it.\"",
+            "p_3": "...and for a good last point: as I mentioned, I'm writing this article now the page is not yet ready. In facts, it's still missing some crucial facts about me, like projects and resume. But I don't really care for now, those things will be here shortly. Right now I just want to get to the point and see this project go online, so this is my MVP version of my personal site. Enjoy it, you can also read on some more if you want to know the next steps and where I plan to end this project in the right time."
+        },
+        "p_16": "FOLLOWS LIST OF FUTURE FEATURES IMPLEMENTATION:- a tested module, maybe it could be projects, with publicly available unit tests on github clearly linked- a series of updates bloglike after a first deploy with a lot of workinprogress-es- deep refactoring of codebase, in terms of names convention mostly- sass for discretization of color variables of the theme and maybe a light version of the page",
+        "title": "About this page"
+    },
+    "projectsSection": {
+        "title": "Projects"
+    },
+    "contactMeSection": {
+        "title": "Get in touch and tell me about it!",
+        "title_1": "Get in touch and ",
+        "title_2": " tell me about it!",
+        "name":{
+            "label": "Name",
+            "placeholder": "Your name"
+        },
+        "email":{
+            "label": "Email",
+            "placeholder": "your@email.com"
+        },
+        "message":{
+            "label": "Message",
+            "placeholder": "Your message"
+        },
+        "button":{
+            "submit": "Submit",
+            "submitting": "Submitting...",
+            "close": "Close contact form"
+        }
+    },
+    "servicesSection": {
+        "title": "Services"
+    },
+    "resumeSection": {
+        "title": "Get my resume",
+        "download": "Download my resume"
+    }
+}

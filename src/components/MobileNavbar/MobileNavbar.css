@@ -1,0 +1,7 @@
+.navbar-burger, .navbar-item {
+    color: azure
+}
+
+.navbar-burger, .navbar-menu {
+    position: fixed;
+}

@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
+  margin-bottom: 20vmin;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-content {
+  padding-top: 2rem;
+  /* color 4: #3c4172 (originally)*/
+  color: #16515C;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('./components/DesktopNavbar/images/NA.png');
+  background-position: 105% -5%;
+  background-repeat: no-repeat;
+  background-blend-mode: luminosity;
+  background-attachment: fixed;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 599px) {
+  .main-content {
+    margin-right: 10vmin;
+    margin-left: 10vmin;
+    background-position: center;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: orange;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.content table td, .content table th {
+  border: 1px solid azure;
+  border-width: 0 0 1px;
+  padding: .5em .75em;
+  vertical-align: top;
+}
+
+.content table thead td, .content table thead th {
+    border-width: 0 0 2px;
+    color: orange;
+    border-color: orange;
+}
+
+a {
+  color:orange;
+}
+
+a:hover {
+  color: rgb(108, 31, 63);
+}
+
+@media(min-width: 599px) {
+
+  button:hover {
+    background-color: rgb(108, 31, 63) !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+  
+.header-wrapper {
+  margin-bottom: 8vmin;
+}
+
+button:focus {
+  box-shadow: 0 0 0 0.04em rgba(220, 50, 121, 0.25) !important;
 }

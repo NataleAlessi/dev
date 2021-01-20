@@ -1,0 +1,19 @@
+.main-content .section-dark.resume button {
+    /* main black/grey: #43485c originally */
+      border: 2px solid #313533;
+    /* color 2: white (originally)*/
+    /* background: rgb(162, 196, 247); */
+    background: #16515C;
+    /* main black/grey: #43485c originally */
+    color: #313533;
+    height: 50px;
+    width: 250px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .main-content .section-dark.resume .fa-download {
+      /* color 3: #1f2c6c (originally) */
+      color: rgb(108, 31, 63);
+  }
+  
