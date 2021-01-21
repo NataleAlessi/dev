@@ -17,3 +17,42 @@
       color: rgb(108, 31, 63);
   }
   
+  a.button {
+    /* color 3: #1f2c6c (originally) */
+    color: azure;
+    background-color: #16515C !important;
+}
+
+.subtitle {
+  color: azure !important;
+}
+
+.point-to-button {
+  animation: updown 2s ease infinite;
+  font-size: 10vmin;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-26%);
+  }
+  50% {
+    transform: translateY(-4%);
+  }
+  100% {
+    transform: translateY(-26%);
+  }
+}
+
+.download-button-area {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+.point-icon-area {
+  display: inline-block;
+  text-align: center;
+}

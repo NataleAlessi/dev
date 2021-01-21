@@ -1,6 +1,7 @@
 import './Resume.css';
-import pdf from './resources/Natale_Alessi_Resume.pdf'
 import { getDictionary } from '../../languages'
+import pdf from './resources/Natale_Alessi_Resume.pdf'
+import cv_img from './resources/Natale_Alessi_Resume.jpg'
 
 const Resume = (props) => {
 	let dictionary = getDictionary(props.language)
@@ -19,18 +20,27 @@ const Resume = (props) => {
 						{dictionary.title}
 					</h1>
 					</div>
-					<div className="column is-10 has-text-centered is-offset-1">
+					<div className="column is-4 is-offset-2">
+						<img src={cv_img}/>
+					</div>
+					<div className="column is-3 has-text-centered is-offset-1">
 					<h2 className="subtitle">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et doloremagna aliqua
+						{ dictionary.subtitle.a }<br/><br/>
+						{ dictionary.subtitle.b }<br/><br/>
+						{ dictionary.subtitle.c }<br/><br/>
 					</h2>
-					<div><img src={pdf}></img></div>
 					<form action="#">
-						<a className="button" href={pdf} download target="_blank">
-						{dictionary.download}&emsp;<i className="fad fa-download fa-lg"></i>
-						</a>
+						<div className='download-button-area'>
+							<div className="point-icon-area">
+								<i className="point-to-button far fa-hand-point-down fa-lg" />
+							</div>
+							<a className="button" href={pdf} download target="_blank" rel="_noreferrer">
+							{dictionary.download}&emsp;<i className="fad fa-download fa-lg"></i>
+							</a>
+						</div>
 					</form>
 					</div>
+					<div className="column is-2"></div>
 				</div>
 				</div>			
 		</div>

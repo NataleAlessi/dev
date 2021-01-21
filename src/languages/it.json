@@ -91,6 +91,11 @@
     },
     "resumeSection": {
         "title": "Visualizza o scarica il mio CV",
+        "subtitle": {
+            "a": "Eccolo qui!",
+            "b": "Quella che vedi è un'anteprima del mio curriculum cartaceo, prova a zoomare un po' per i dettagli!",
+            "c": "Se invece preferisci semplicemente scaricarne una copia, la trovi in formato PDF. Basta cliccare qui giù!"
+        },
         "download": "Scarica CV"
     }
 }

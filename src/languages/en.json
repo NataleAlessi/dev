@@ -91,6 +91,11 @@
     },
     "resumeSection": {
         "title": "Get my resume",
+        "subtitle": {
+            "a": "Here you are!",
+            "b": "This page here is a preview of my resume, feel free to zoom on it for details!",
+            "c": "If you prefer to just download my resume, you can get it in PDF with a click under here."
+        },
         "download": "Download my resume"
     }
 }
