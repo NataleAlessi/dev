@@ -1,4 +1,5 @@
 import './Resume.css';
+import pdf from './resources/Natale_Alessi_Resume.pdf'
 import { getDictionary } from '../../languages'
 
 const Resume = (props) => {
@@ -23,8 +24,9 @@ const Resume = (props) => {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et doloremagna aliqua
 					</h2>
+					<div><img src={pdf}></img></div>
 					<form action="#">
-						<a className="button" href='./resources/N_A_Resume.pdf' download>
+						<a className="button" href={pdf} download target="_blank">
 						{dictionary.download}&emsp;<i className="fad fa-download fa-lg"></i>
 						</a>
 					</form>
