@@ -26,15 +26,25 @@
   }
   
   .service-description:hover {
-    color: azure;
+    color: orange;
   }
   
-.fa-meteor,
+  .service-description {
+    color: azure;
+    margin-bottom: 4vmin;
+  }
+  
+.fa-link,
 .fa-paint-brush,
 .fa-rocket,
 .fa-upload,
-.fa-bus,
+.fa-brain,
 .fa-code,
 .service-label {
     color: azure;
   }
+
+
+hr {
+  background-color: azure !important;
+}

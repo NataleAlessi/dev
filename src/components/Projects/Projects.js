@@ -1,3 +1,6 @@
+// to do, new branch, then do this page first
+
+
 import './Projects.css';
 import APIFeed from '../APIFeed/APIFeed'
 import { getDictionary } from '../../languages'

@@ -31,9 +31,7 @@ function App() {
             <Switch>
               {/* <Route path='/About'><About language={userLanguage}/></Route> */}
               <Route path='/Resume'><Resume language={userLanguage}/></Route>
-              {/* <Route path='/Resume'><WorkInProgress/></Route> */}
-              {/* <Route path='/Services'><Services language={userLanguage}/></Route> */}
-              <Route path='/Services'><WorkInProgress/></Route>
+              <Route path='/Services'><Services language={userLanguage}/></Route>
               {/* <Route path='/Projects'><Projects language={userLanguage}/></Route> */}
               <Route path='/Projects'><WorkInProgress/></Route>
               <Route path='/AboutThisPage'><AboutThisPage language={userLanguage}/></Route>

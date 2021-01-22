@@ -87,7 +87,14 @@
         }
     },
     "servicesSection": {
-        "title": "Services"
+        "title": "Services",
+        "subtitle": "Ecco cosa posso fare per te",
+        "front_end": "React è stato il mio più leale compagno dal momento in cui l'ho provato per la prima volta, circa sei mesi fa. In assoluto il mio framework di preferenza. Ho anche esperienza con React Native, Angular e Ionic.",
+        "back_end": "Ho impiegato buona parte del mio tempo come sviluppatore sviluppando back-end e servizi in  Python (Flask o Django), PHP (principalmente Laravel) e server-side rendering.",
+        "scripting": "Python è stato il mio primo linguaggio di programmazione, e quindi lo scripting per utilizzi generali non manca mai nella mia cassetta degli attrezzi. In particolare, ho una buona esperienza nello sviluppo di crawler e script per automazione di task complessi con Selenium e Python.",
+        "blockchain": "Il mio primo amore. Ho cominciato a programmare quando mi sono reso conto del potenziale dell'ecosistema blockchain, spinto dalla voglia di farne parte. Da quel momento, non ho mai smesso di tenermi aggiornato, di sperimentare e in generale di credere nel suo potenziale ancora da esplorare.",
+        "drive": "Porto motivazione ed energia al tavolo. Ambisco all'eccellenza ma non cerco la competizione fine a se stessa. Sali a bordo! Insieme andiamo più lontano!",
+        "just_in_time": "Il miglior momento per piantare un albero? Ieri. Il miglior momento per imparare quello che serve? Proprio adesso! Cerco di non smettere mai di imparare, e il mio ciclo di auto-aggiornamento e miglioramento non si ferma mai. Ti serve qualcuno che impari in fretta quella nuova tecnologia che ti serve? Eccomi qui."
     },
     "resumeSection": {
         "title": "Visualizza o scarica il mio CV",

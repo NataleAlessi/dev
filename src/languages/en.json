@@ -87,7 +87,14 @@
         }
     },
     "servicesSection": {
-        "title": "Services"
+        "title": "Services",
+        "subtitle": "Here's what I can do for you",
+        "front_end": "React has been my most loyal companion since I gave it a try, six months ago. Definitively my tool of choice. I also have some experience with React Native, Angular and Ionic.",
+        "back_end": "A good portion of the time I've spent coding, I've done it implementing back-end services in Python (Flask or Django) and/or PHP (mainly Laravel) with some server-side rendering as a plus.",
+        "scripting": "Since Python was my first language of choice, scripting for general purposes is always been part of my toolbox. In particular, I have a decent experience in developing crawlers and task automations with Selenium and Python.",
+        "blockchain": "My first love. I first started coding because I wanted to be involved in the blockchain ecosystem. I've been reading about it, experimenting, investing and generally believed in it ever since.",
+        "drive": "I bring drive and motivation to the table. I strive for excellence but not for competition per se. Get on board! A team always goes a longer way!",
+        "just_in_time": "Best moment to plant a tree? Yesterday. Best time to learn what you need? Right now! Consider me in an evergoing cycle of continuous-learning. Looking for someone to get a grasp quickly on that new technology you need? Here I am."
     },
     "resumeSection": {
         "title": "Get my resume",
