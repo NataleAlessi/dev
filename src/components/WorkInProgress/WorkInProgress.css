@@ -1,4 +1,10 @@
 .WorkInProgress {
     color: orange;
-    font-size: 200%;
+    font-size: 800%;
+}
+
+@media (max-width: 599px) {
+    .WorkInProgress {
+        font-size: 200%;
+    }
 }
