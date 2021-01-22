@@ -9,9 +9,9 @@ const About = (props) => {
   dictionary = dictionary.aboutSection
 
   return (
- 		<div className="About">      
+ 		<div className="AboutAndSkills">      
       <div>
-          <div className="container">
+          <div className="container About">
 
             <div className="column is-12 about-me">
               <h1 className="title has-text-centered section-title">
@@ -20,9 +20,7 @@ const About = (props) => {
             </div>
 
             <div className="columns is-multiline">
-              <div
-                className="column is-8 has-vertically-aligned-content"
-                data-aos="fade-right">
+              <div className="column is-7 is-offset-1 has-vertically-aligned-content">
 
                 <p className="is-larger section-subtitle">
                   {dictionary.subtitle}
@@ -50,7 +48,6 @@ const About = (props) => {
                 </div>
               </div>
 
-              <div className="column is-1"></div>
               <div className="column is-3" data-aos="fade-left">
                 <img className="is-rounded image-centered" src={pro_pic} alt="" />
               </div>
@@ -60,7 +57,7 @@ const About = (props) => {
       </div>
       <hr style={{marginTop: '20vmin'}} className='custom-hr'/>
 
-      <Skills/>
+      <Skills className="Skills"/>
 
 		</div>
 	);

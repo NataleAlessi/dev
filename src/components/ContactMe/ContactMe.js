@@ -62,7 +62,7 @@ const ContactMe = (props) => {
 						</h1>
 					</div>
 
-					<div className="column is-8 is-offset-2">
+					<div className="column is-5 is-offset-2">
 					<form onSubmit={handleSubmit}>
 
 						<div className="field">
@@ -119,6 +119,7 @@ const ContactMe = (props) => {
 						</div>
 					</form>
 					</div>
+					<div className="column is-5 robot-in-space"></div>
 				</div>
 			</div>
 		</div>

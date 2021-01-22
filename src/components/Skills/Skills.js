@@ -1,6 +1,8 @@
+import './Skills.css'
+
 const Skills = () => {
     return (
-        <div className="container">
+        <div className="container Skills">
           <div className="columns is-multiline" 
               data-aos="fade-in"
               data-aos-easing="linear">

@@ -1,73 +1,28 @@
 .main-content .section-light {
-    padding: 30px;
-  }
-  
-  .main-content .section-light.about-me {
-    padding-bottom: 100px;
-  }
-  
-  .main-content .section-light.about-me .is-larger {
-    font-size: 1.2rem;
-  }
-  
-  @media (max-width: 599px) {
-    .main-content .section-light.about-me .about-links {
-      text-align: center;
-    }
-  }
-  
-  .main-content .section-light.about-me .right-image img {
-    border-radius: 11px;
-    margin: 20px;
-    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
-  }
-  
-  @media (max-width: 599px) {
-    .main-content .section-light.about-me .right-image img {
-      margin: auto;
-    }
-  }
-  
-  .main-content .section-light.skills {
-    padding: 100px;
-  }
-  
-  @media (max-width: 599px) {
-    .main-content .section-light.skills {
-      padding: 50px 20px 40px 20px;
-      padding-bottom: 20px;
-    }
-    hr.custom-hr {
-      display: none
-    }
-    .has-image-centered {
-      margin-bottom: 20vmin
-    }
-  }
-  
-  .main-content .section-light.skills h1 {
-    padding: 10px;
-  }
-  
-  /* .main-content .section-light.contact {
-    padding: 200px;
-  }
-  
-  .main-content .section-light.contact button {
-    width: 100%;
-    background-color: #313533;
-    color: #16515C;
-    height: 50px;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-  } */
-  
-  @media (max-width: 599px) {
-    .main-content .section-light.contact {
-      padding: 60px 20px;
-    }
-  }
+  padding: 30px;
+}
+
+.main-content .section-light.about-me {
+  padding-bottom: 100px;
+}
+
+.main-content .section-light.about-me .is-larger {
+  font-size: 1.2rem;
+}
+    
+.main-content .section-light.about-me .right-image img {
+  border-radius: 11px;
+  margin: 20px;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+.main-content .section-light.skills {
+  padding: 100px;
+}
+
+.main-content .section-light.skills h1 {
+  padding: 10px;
+}
 
 .image-centered {
   display: flex;
@@ -115,4 +70,30 @@ hr.custom-hr {
 
 hr.custom-hr:after {
   content: "\00a0";
+}
+  
+@media (max-width: 599px) {
+  .About, .AboutAndSkills {
+    margin-bottom: 40vmin;
+  }
+
+  .main-content .section-light.about-me .about-links {
+    text-align: center;
+  }
+  .main-content .section-light.about-me .right-image img {
+    margin: auto;
+  }
+  .main-content .section-light.skills {
+    padding: 50px 20px 40px 20px;
+    padding-bottom: 20px;
+  }
+  hr.custom-hr {
+    display: none
+  }
+  .has-image-centered {
+    margin-bottom: 20vmin
+  }
+  .main-content .section-light.contact {
+    padding: 60px 20px;
+  }
 }

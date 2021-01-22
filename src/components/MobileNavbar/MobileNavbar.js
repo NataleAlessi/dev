@@ -27,9 +27,6 @@ const MobileNavbar = () => {
               <Link className="navbar-item" to="/About">SomethingAboutMe</Link>
             </div>
             <div onClick={handleClick} className="navbar-item">
-              <Link className="navbar-item" to="/Projects">Projects&Works</Link>
-            </div>
-            <div onClick={handleClick} className="navbar-item">
               <Link className="navbar-item" to="/Services">MyOffer</Link>
             </div>
             <div onClick={handleClick} className="navbar-item">
@@ -37,6 +34,9 @@ const MobileNavbar = () => {
             </div>
             <div onClick={handleClick} className="navbar-item">
               <Link className="navbar-item" to="/ContactMe">ContactMe</Link>
+            </div>
+            <div onClick={handleClick} className="navbar-item">
+              <Link className="navbar-item" to="/Projects">Projects&Works</Link>
             </div>
             <div onClick={handleClick} className="navbar-item">
               <Link className="navbar-item" to="/AboutThisPage">AboutThisPage</Link>

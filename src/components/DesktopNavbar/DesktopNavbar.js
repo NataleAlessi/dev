@@ -28,12 +28,10 @@ const DesktopNavbar = () => {
           <div className="columns">
             <div className="column is-5 hero-menu-desktop has-text-centered">
               <ul>
-                <li><Link className='NavigationLink' 
-                  to='/About'>SomethingAboutMe</Link></li>
-                <li><Link className='NavigationLink' 
-                  to='/Projects'>Projects&Works</Link></li>
-                <li><Link className='NavigationLink' 
-                  to='/Services'>MyOffer</Link></li>
+                <li><Link className='NavigationLink' to='/About'>SomethingAboutMe</Link></li>
+                {/* <li><Link className='NavigationLink' to='/Projects'>Projects&Works</Link></li> */}
+                <li><Link className='NavigationLink' to='/AboutThisPage'>AboutThisPage</Link></li>
+                <li><Link className='NavigationLink' to='/Services'>MyOffer</Link></li>
               </ul>
             </div>
 
@@ -43,12 +41,10 @@ const DesktopNavbar = () => {
 
             <div className="column is-5 hero-menu-desktop has-text-centered">
               <ul>
-                <li><Link className='NavigationLink' 
-                  to='/Resume'>HereForMyResume</Link></li>
-                <li><Link className='NavigationLink' 
-                  to='/ContactMe'>ContactMe</Link></li>
-                <li><Link className='NavigationLink' 
-                  to='/AboutThisPage'>AboutThisPage</Link></li>
+                <li><Link className='NavigationLink' to='/Resume'>HereForMyResume</Link></li>
+                <li><Link className='NavigationLink' to='/ContactMe'>ContactMe</Link></li>
+                <li><Link className='NavigationLink' to='/Projects'>Projects&Works</Link></li>
+                {/* <li><Link className='NavigationLink' to='/AboutThisPage'>AboutThisPage</Link></li> */}
               </ul>
             </div>
           </div>

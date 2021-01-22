@@ -1,7 +1,16 @@
 @media (min-width: 600px) {
-    .ContactMe {
-        padding: 0 30%
+    div.robot-in-space {
+        height: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('./images/robot-in-space.png');
     }
+}
+
+@media (max-width: 599px) {
+    div.robot-in-space {
+        display: none;
+   }
 }
 
 label.label {
