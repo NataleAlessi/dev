@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/dev/static/css/main.82746968.chunk.css",
+    "main.js": "/dev/static/js/main.88728059.chunk.js",
+    "main.js.map": "/dev/static/js/main.88728059.chunk.js.map",
+    "runtime-main.js": "/dev/static/js/runtime-main.b3c8e99a.js",
+    "runtime-main.js.map": "/dev/static/js/runtime-main.b3c8e99a.js.map",
+    "static/js/2.01cb5810.chunk.js": "/dev/static/js/2.01cb5810.chunk.js",
+    "static/js/2.01cb5810.chunk.js.map": "/dev/static/js/2.01cb5810.chunk.js.map",
+    "static/js/3.0c866880.chunk.js": "/dev/static/js/3.0c866880.chunk.js",
+    "static/js/3.0c866880.chunk.js.map": "/dev/static/js/3.0c866880.chunk.js.map",
+    "index.html": "/dev/index.html",
+    "static/css/main.82746968.chunk.css.map": "/dev/static/css/main.82746968.chunk.css.map",
+    "static/js/2.01cb5810.chunk.js.LICENSE.txt": "/dev/static/js/2.01cb5810.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dev/static/media/NA.3a644d94.png",
+    "static/media/Natale_Alessi_Resume.88aa7c8d.pdf": "/dev/static/media/Natale_Alessi_Resume.88aa7c8d.pdf",
+    "static/media/Natale_Alessi_Resume.f35887f9.jpg": "/dev/static/media/Natale_Alessi_Resume.f35887f9.jpg",
+    "static/media/Hero.css": "/dev/static/media/astronaut.a7cab7f0.png",
+    "static/media/pro_pic_1.e85628f4.png": "/dev/static/media/pro_pic_1.e85628f4.png",
+    "static/media/ContactMe.css": "/dev/static/media/robot-in-space.b9bc2269.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3c8e99a.js",
+    "static/js/2.01cb5810.chunk.js",
+    "static/css/main.82746968.chunk.css",
+    "static/js/main.88728059.chunk.js"
+  ]
+}
